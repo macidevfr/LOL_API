@@ -5,10 +5,10 @@ import time
 
 currentTimeDate = datetime.now() - relativedelta(years=1)
 currentTimeDate = int(currentTimeDate.timestamp())
-lol_watcher = LolWatcher('RGAPI-e876743f-de07-48fe-9997-668caa1c2dad')
+lol_watcher = LolWatcher('API-KEY')
 
 my_region = 'euw1'
-pseudo = 'Vachette Hybride'
+pseudo = 'PSEUDO'
 
 me = lol_watcher.summoner.by_name(my_region, pseudo)
 
